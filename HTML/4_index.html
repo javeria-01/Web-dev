@@ -9,6 +9,101 @@
     <title>Demo</title>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <ul>
+            <ul>home</ul>
+            <ul>profile</ul>
+            <ul>contact Me</ul>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <h1>THIS IS CHP 4 DEMO WEBSITE:</h1>
+            <p>You will learn alot in this chp stay in this website so you wull master this html course
+                Thankyou you should also learn somr java and python basics...
+            </p>
+        </div>
+        <div>
+            <table border="2">
+            <caption><b>This is the student records</b></caption>
+            <thead>
+            <tr>
+                <th>id</th>
+                <th>name</th>
+                <th>contactNo</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>6543</td>
+                <td>javeria</td>
+                <td>034654330</td>
+            </tr>
+            <tr>
+                <td>565</td>
+                <td>html</td>
+                <td>6754834</td>
+            </tr>
+            </tbody>
+            </table>
+        </div>
+        <div>
+            <form action="form.php">
+                <h1>Form for a student</h1>
+                Enter your Username<input type="text">
+                <br>
+                Enter your Password<input type="text">
+                <br>
+            <!--Value should be chnge so you can select at a time one-->
+                Select your gender<input type="radio" value="male" name="gender">male
+                <input type="radio" value="female" name="gender">female
+                <br>
+            <!--This is for checkbox-->    
+                <span>Subjects you  want to select</span>
+                <br>
+                <input type="checkbox" name="subjects">pf
+                <br>
+                <input type="checkbox" name="subjects">maths
+                <br>
+                <input type="checkbox" name="subjects">english
+                <br>
+                <input type="checkbox" name="subjects">ict
+                </ul>
+            <!--This is for textarea in which you can write whaterver you want-->
+                <br>
+                <textarea name="feedback" id="" cols="30" rows="10">Gives your feedback</textarea>    
+                <br>
+            <!--This is for dropdown list--> 
+                <select name="courses" id="courses">
+                    <option value="default">Select your languages</option>
+                    <option value="courses">pf</option>
+                    <option value="courses">maths</option>
+                    <option value="courses">English</option>
+                    <option value="courses">ict</option>
+                    <option value="courses">Pak study</option>
+                    <option value="courses">Oop</option>
+                </select>   
+           </form>
+        </div>
+        <div>
+            <!--This is for embedded videos-->
+                <iframe width="499" height="315" src="https://www.youtube.com/embed/BsDoLVMnmZs" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+        </div>
+        <div>
+            <!--You can alse come another website in your website bt iframe-->
+                <iframe src="http://www.bing.com" frameborder="0" width ="892px"></iframe>   
+        </div>
+        <div>
+            <!--Video with sourse file-->   
+                <video src="02Hi lights controls autoplay loop" ></video>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
