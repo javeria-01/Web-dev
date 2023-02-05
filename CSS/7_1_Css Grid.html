@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Grid</title>
+    <style>
+        .container{
+            display: grid;
+            background-color: yellowgreen;
+    /*This will omcrease gap between row and coloumn*/
+            /* grid-row-gap: 2px;
+            grid-column-gap: 2px; */
+    /*by this you can give your coloumn widths and auto */
+           grid-template-columns: 5vw 10vw 20vw 30vw;
+    /*This is the shorthend property of frid row gape and grid colouumn gap
+    If you  will give only one value then both value will automatically fix*/
+           /* grid-gap: 2px 2px; */
+           grid-gap: 2px;
+    /*It will set height of rows*/
+           grid-template-rows: 50vh;
+
+           justify-content: space-evenly;
+
+           align-content: space-between;
+          }
+          
+        .item{
+            background-color: aqua;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+    </div>
+</body>
+</html>

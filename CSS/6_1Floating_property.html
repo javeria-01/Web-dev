@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float property</title>
+    <style>
+        .box1{
+            height: 25vh;
+            width: 25vw;
+            background-color: blue;
+    /*Float property will float this box to right*/
+            float:right;
+        }
+        .box2{
+            height: 25vh;
+            width: 25vw;
+            background-color: purple;
+            float: right ;
+    /*It will clear only floating box*/
+            clear: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">I am Box 1</div>
+    <div class="box2">I am Box 2</div>
+</body>
+</html>

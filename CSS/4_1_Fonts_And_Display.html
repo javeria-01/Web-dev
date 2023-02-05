@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ch4 Fonts and Display</title>
+</head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box1{
+            width: 343px;
+            height: 43px;
+            background-color: rgb(207, 24, 24);
+            color: white;
+        /* Dono boxes ko side by side lana h to dono box m inline wala rule likhe ge */
+            /* display: inline; */
+            display: inline-block;
+        /*This will hidden the box1*/
+            /* visibility: hidden; */
+        /*This is for underlining text*/
+            text-decoration: underline;
+        /*By this first alphabet of every word will be capital */
+            text-transform: capitalize;
+             
+            font-style: oblique;
+        /*Height between the lines*/
+            line-height: 24px;
+            font-size: 16px;
+            
+
+            
+        }
+        .box2{
+            width: 343px;
+            height: 43px;
+            background-color: darkblue;
+            color: white;
+        /* display: inline; */
+           display: inline-block;
+        }
+    </style>
+<body>
+    <div class="box1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, error?</div>
+    <div class="box2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, obcaecati!</div>
+</body>
+</html>

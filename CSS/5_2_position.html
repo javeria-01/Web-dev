@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            /* display: inline; */
+            font-family:'Times New Roman', Times, serif;
+            font-size: large;
+    /*By this your list circles will be visible and will inside the url*/
+            list-style: circle inside url();
+            
+        }
+        header{
+            background-color: black;
+            color: white;
+            height: 10vh;
+    /*By this your header will stick on his place and will not move from his place*/
+            position: sticky;
+            top: 0px;
+    /*By this your header sb se uper rhe ga uske uper kuch b ni aye ga
+    jis p bara z index aye ga wo cheez sb se uper rhe gi*/
+            z-index: 1;
+        }
+        p{
+            text-align: center;
+            border: 2px solid black;
+        }
+        .container{
+            background-color: aqua;
+            height: 50vh;
+            width: 50vw;
+            margin: auto;
+            border: 3px solid black;
+        }
+        .box{
+            background-color: chartreuse;
+            height: 25vh;
+            width:25vw;
+            display: inline-block;
+            border: 1px solid black;
+
+        }
+        .box2{
+            background-color: coral;
+            height: 25vh;
+            width: 24vw;
+            display: inline-block;
+            border: 1px solid black;
+    /*By this youur box 2 position can move to left right top bottom*/
+            position: relative;
+            left: 0.8vw;
+        }
+        body{
+            height: 4444px;
+        }
+        .list{
+            background-color: red;
+            color: white;
+            display: block;
+            height: 15vh;
+            list-style: inside url() decimal;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ab voluptas suscipit repellat vel, minima deserunt maxime? Ut nam fugiat incidunt, laudantium deleniti ullam molestiae natus corrupti, perferendis eligendi, aspernatur dolorum reprehenderit id amet?</p>
+            <div class="box">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit nisi quidem natus repudiandae vel ullam dolorem eligendi facilis, eaque ea consectetur voluptate? Illo porro quibusdam eum sequi facere est ipsa iste ipsum laboriosam minima natus error animi tempora at repudiandae omnis rem similique, molestias velit inventore aspernatur pariatur assumenda et.</div><div class="box2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem eligendi blanditiis fugit quis libero odio similique facilis non odit! Natus sed nam placeat error nemo hic deserunt quos, eum ab explicabo ducimus sit voluptas voluptatum possimus! Ipsam molestiae sapiente, distinctio dicta, recusandae at quae doloremque enim culpa fuga animi nisi?</div>
+            <p1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, nobis corporis sequi magni optio reprehenderit neque a veniam est voluptatibus odio laborum minus nostrum labore. Neque eius dolorem suscipit molestiae.</p1>
+        </div>
+        <div class="list">
+            <ul>
+                <li>Java</li>
+                <li>Python</li>
+                <li>C++</li>
+            </ul>
+        </div>
+         </main>
+</body>
+</html>

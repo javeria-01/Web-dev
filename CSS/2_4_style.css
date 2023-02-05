@@ -1,0 +1,52 @@
+*{
+    /* is se sides se spaces khtm hojay gi 
+    m0+p0 is a shortcut*/
+    margin: 0;
+    padding: 0;   
+}
+.red{
+    background: rgb(212, 21, 21);
+    color: white;
+
+}
+#green{
+    background-color: green;
+    color: aqua;
+}
+
+/* For background */
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 334px;
+    height: 1744px;
+    border: 2px solid red;
+    background-color: blue;
+    color: white;
+    /* background-image: url('2_index.png'); */
+
+    /* By this image will not repeat  */
+    /* background-repeat: no repeat; */
+
+    /* By this image will repeat in x */
+    /* background-repeat: x-repeat; */
+
+    /* By this image will repeat in y  */
+    /* background-repeat: y-repeat; */
+
+    /* By this images k darmiyan spaces aye gi*/
+    /* background-image: space; */
+
+    /* background-position: center; */
+
+    /* Is se agr scroll b kro ge to text scroll hoga but image ni hogi image fix rhe gi */
+    /* background-attachment: fixed; */
+
+    /* Is se saara kaam ek he se hoga */
+    background: red url(sc.png.png) no-repeat fixed center;
+
+
+}
+

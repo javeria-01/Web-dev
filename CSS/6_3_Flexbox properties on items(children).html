@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .container{
+        /* This is parent */
+            background-color: aqua;
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        /*This is child */
+        .box1{
+            background-color: brown;
+            height: 234px;
+            /* width: 234px; */
+            border: 2px solid black;
+        /*Order property will move box1 to order 4 */
+        /*Default value of boxes are 0*/
+            order: 4;
+        /*With alighn self property box 1 will move to end of container*/
+            /* align-self: flex-end; */
+        /*By flex self property box 1 will increase his width to 3*/
+            flex-grow: 3;
+        /*It will shrink your box 1*/
+            flex-shrink: 3;
+        }
+        .box2{
+            background-color: blueviolet;
+            height: 234px;
+            width: 234px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">I am box 1</div>
+        <div class="box2">I am box 2</div>
+        <div class="box2">I am box 2b</div>
+        <div class="box2">I am box 2c</div>
+    </div>
+</body>
+</html>
