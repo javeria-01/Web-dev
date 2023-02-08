@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        .container{
+            background-color: red;
+            height: 60vh;
+        }
+        .image{
+            display: inline-block;
+    /*By this property box will move forward*/
+            transform: translate(30vw);
+    /*By this property u can rotate your box u can also use origin property*/
+            /* transform: translate(30vw) rotate(2deg); */
+    /*By this property your box will increase in width*/
+            /* transform: scaleX(2); */
+    /*By this your box will increase in height*/
+            /* transform: scaleY(2); */
+    /*It will skew the image*/
+            transform: skew(4deg,6deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image"> <img src="image.jpg" height="40%" width="40%"></div>
+    </div>
+</body>
+</html>

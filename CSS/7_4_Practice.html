@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ptactice</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: black;
+            color: white;
+            position: sticky;
+            top: 0px;
+        }
+        ul{
+            padding: 20px;
+            
+        }
+        li{
+            display: inline;
+            padding: 20px;
+        }
+        .container{
+            background-color: white;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .box1{
+            background-color: coral;
+            border: 2px solid black;
+            width: 30vw;
+            height: 25vh;
+        }
+        .box2{
+            background-color: coral;
+            border: 2px solid black;
+            width: 30vw;
+            height: 25vh;
+        }
+        .form{
+            background-color: aqua;
+            color: black;
+            width: 30vw;
+            display: flex;
+            align-content: flex-end;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="box1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum incidunt, est voluptas esse placeat repellendus. Soluta atque recusandae ipsum expedita totam, inventore nisi quasi facilis ab doloremque fuga, sit maxime? Fugiat possimus totam esse, laudantium dignissimos, est nostrum velit tempora et ex architecto consequatur veritatis?</div>
+            <div class="box2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate ea vitae eveniet amet doloribus. Eum sequi quae porro iste ut nostrum ullam natus repellat provident at itaque saepe, ipsa magnam vitae sint sapiente voluptate aut dignissimos delectus! Eaque deserunt, tenetur provident voluptates fuga explicabo vero eligendi iure asperiores dolor sapiente! Rem itaque aut totam labore consequatur minus, repellendus facilis voluptatum.</div>
+        </div>
+        <div class="form">
+            <form action="form.php">
+                <h2>Form for student registration</h2>
+                Enter your username<input type="text">
+                <br>
+                Enter your password<input type="password">
+                <br>
+                Select your gender<input type="radio" name = gender value male>male
+                                  <input type="radio" name = gender value female>female
+                <br>
+                <h3>Select your sports</h3>
+                hockey<input type="checkbox" name sports> 
+                <br>
+                cricket <input type="checkbox" name sports>
+                <br>
+                bedminton <input type="checkbox" name sports>
+                <br>
+                football <input type="checkbox" name sports>
+                
+            </form>
+        </div>
+    </main>
+</body>
+</html>

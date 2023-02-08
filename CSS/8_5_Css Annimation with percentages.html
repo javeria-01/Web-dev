@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annimation with percentages</title>
+</head>
+<style>
+    container{
+        width: 100vw;
+        height: 100vh;
+        background-color: aqua;
+    }
+    .box{
+        background-color: red;
+        width: 40vw;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        
+        animation: annimator 3s ease-in 1s infinite normal;
+    }
+    @keyframes annimator {
+        0%{
+            width: 20vw;
+        }
+        50%{
+            width: 80vw
+        }
+        100%{
+            width: 100vw;
+        }
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="box">I am Box</div>
+    </div>
+</body>
+</html>
