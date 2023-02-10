@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.progressbar{
+    background-color: red;
+    height: 0.19vh;
+    width: 0.25vw;
+    animation: progress 0.5s ease-out 1s 1 normal;
+        
+}
+@keyframes progress {
+    from{
+        width: 0.25vw;
+        height: 0.19vh;
+    }
+    to{
+        width: 100vw;
+        height: 0.25vh;
+    }
+}
+header{
+    background-color: rgb(7, 138, 219);
+    color: black;
+    height: 2.5vh;
+    width: 100vw;
+    position: sticky;
+    top: 0vh;
+    padding: 1.5vw;
+}
+img{
+    width: 6.5vw;
+   
+}
+nav ul{
+  display: flex;
+  justify-content: flex-start;
+  
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    position: relative;
+    padding: 3vw;
+    text-decoration: none;
+    bottom: 4vh;
+    left: 8vw;
+    color: white;
+}
+nav ul li a:hover{
+    /* color: rgb(102, 204, 199); */
+    font-weight: bold;
+}
+.search{
+    position: relative;
+    left: 40vw;
+    bottom: 8vh;
+    width: 399px;
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 45vw;
+    height: 4vh;
+    border-radius: 2px;
+}
+.btn{
+    position: relative;
+    border: 1px solid black;
+    left: 0.5vw;
+    background-color: rgb(7, 138, 219);
+    color: white;
+    padding: 0.5vw;
+    border-radius: 2px;
+}
+.btn:hover{
+    font-weight: bolder;
+}
+.container{
+    background-color: white;
+    height: 90vh;
+    align-items: center;
+    
+}
+.cricket{
+    /* background-color: aqua; */
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    margin-top: 0vh;
+    padding: 4vw;
+}
+.box1{
+    height: 15vh;
+    width: 13vw;
+    /* background-color: red; */
+    display: inline-block;
+    position: relative;
+    top: 4vh;
+    right: 14vw;
+}
+.text1{
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    margin: 4vh;
+    
+}
+.box2{
+    height: 15vh;
+    width: 13vw;
+    /* background-color: red; */
+    display: inline-block;
+    position: relative;
+    top: 4vh;
+    right: 10vw;
+}
+.text2{
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    margin: 4vh;
+}
+.box3{
+    height: 15vh;
+    width: 13vw;
+    /* background-color: red; */
+    display: inline-block;
+    position: relative;
+    top: 4vh;
+    right: 7vw;
+}
+.text3{
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    margin: 4vh;
+}
+.box4{
+    height: 15vh;
+    width: 13vw;
+    /* background-color: red; */
+    display: inline-block;
+    position: relative;
+    top: 4vh;
+    right: 5vw;
+}
+.text4{
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    margin: 4vh;
+}
+.box5{
+    height: 15vh;
+    width: 10vw;
+    /* background-color: red; */
+    display: inline-block;
+    position: relative;
+    top: 4vh;
+    right: 1vw;
+}
+.text5{
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    margin: 4vh;
+}
+.containera{
+    background-color: white;
+    height: 90vh;
+}
+.furniture{
+    /* background-color:blueviolet; */
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    margin-top: 0vh;
+    padding: 4vw;
+    
+}
+.box1a{
+    height: 15vh;
+    width: 13vw;
+    /* background-color: red; */
+    display: inline-block;
+    position: relative;
+    top: 4vh;
+    right: 14vw;
+}
+.text1a{
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    margin: 4vh;
+}
+.box2a{
+    height: 15vh;
+    width: 13vw;
+    /* background-color: red; */
+    display: inline-block;
+    position: relative;
+    top: 4vh;
+    right: 10vw;
+}
+.text2a{
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    margin: 4vh;
+}
+.box3a{
+    height: 15vh;
+    width: 13vw;
+    /* background-color: red; */
+    display: inline-block;
+    position: relative;
+    top: 4vh;
+    right: 7vw;
+}
+.text3a{
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    margin: 4vh;
+}
+.box4a{
+    height: 15vh;
+    width: 13vw;
+    /* background-color: red; */
+    display: inline-block;
+    position: relative;
+    top: 4vh;
+    right: 5vw;
+}
+.text4a{
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    margin: 4vh;
+}
+.box5a{
+    height: 15vh;
+    width: 10vw;
+    /* background-color: red; */
+    display: inline-block;
+    position: relative;
+    top: 4vh;
+    right: 1vw;
+}
+.text5a{
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    margin: 4vh;
+}
+.containerb{
+    background-color: white;
+    height: 90vh;
+}
+.Phones{
+    /* background-color:brown; */
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    margin-top: 0vh;
+    padding: 4vw;
+}
+.box1b{
+    height: 15vh;
+    width: 13vw;
+    /* background-color: red; */
+    display: inline-block;
+    position: relative;
+    top: 4vh;
+    right: 14vw;
+}
+.text1b{
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    margin: 4vh;
+}
+.box2b{
+    height: 15vh;
+    width: 13vw;
+    /* background-color: red; */
+    display: inline-block;
+    position: relative;
+    top: 4vh;
+    right: 10vw;
+}
+.text2b{
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    margin: 4vh;
+}
+.box3b{
+    height: 15vh;
+    width: 13vw;
+    /* background-color: red; */
+    display: inline-block;
+    position: relative;
+    top: 4vh;
+    right: 7vw;
+}
+.text3b{
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    margin: 4vh;
+}
+.box4b{
+    height: 15vh;
+    width: 13vw;
+    /* background-color: red; */
+    display: inline-block;
+    position: relative;
+    top: 4vh;
+    right: 5vw;
+}
+.text4b{
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    margin: 4vh;
+}
+.box5b{
+    height: 15vh;
+    width: 10vw;
+    /* background-color: red; */
+    display: inline-block;
+    position: relative;
+    top: 4vh;
+    right: 1vw;
+}
+.text5b{
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    margin: 4vh;
+}
+footer{
+    background-color: rgb(7, 138, 219);
+    color: white;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
