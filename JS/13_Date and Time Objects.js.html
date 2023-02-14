@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date and Time objects in js</title>
+    <style>
+        .container{
+            background-color: black;
+            color: white;
+            height: 25vh;
+            border-radius: 4vw;
+            text-align: center;
+            position: relative;
+            top: 10vh;
+            margin: 4px;
+            padding: 34px;
+            border: 10px solid red;
+        }
+        #time{
+            font-weight: bolder;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Date and Time Objects:</h1>
+        <p>This is all about date and Time</p>
+        <span id="time">Current time is</span>
+    </div>
+</body>
+<script>
+    console.log("This is date and time");
+// By this new date function you will get date and time: 
+    let dt = new Date();
+    console.log(dt);
+    document.getElementById("time").innerHTML = dt;
+    setInterval(dt, 1000);
+
+// Excect Date setting:
+    let exectDate = new Date("14-feb-2023");
+    console.log(exectDate);
+
+// new method of displayong date and time:
+    // let date = new Date(year, months, date, hours, minutes, seconds, miliseconds);
+    let date = new Date(2023,4, 6, 9, 3, 2, 34);
+    console.log(date);
+
+// Some functions of date and time in JS;
+    let yr = newDate.getfullyear();
+    console.log(yr); 
+
+    let dte = newDate.getDate();
+    console.log(dte); 
+
+    let mnth = newDate.getmonth();
+    console.log(mnth); 
+
+    let hors = newDate.gethours();
+    console.log(hors); 
+</script>
+</html>

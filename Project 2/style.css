@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 15vh;
+    background-color: brown;
+    position: sticky;
+    top: 0vh;
+}
+#logo img{
+    position: relative;
+    width: 4%;
+    left: 2vw;
+    top: 2.5vh;
+}
+#first nav ul{
+    display: flex;
+    justify-content: flex-start;
+}
+#first nav ul li{
+    list-style: none;
+}
+#first nav ul li a{ 
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+    left: 8vw;
+    bottom: 3vh;
+    padding: 2.5vw;
+    font-size: larger;
+}
+li  :hover{
+    font-weight: bolder;
+    color: white;
+   
+}
+#location img{
+    width: 2vw;
+    position: relative;
+    left: 70vw;
+    bottom: 7vh;
+}
+#second nav ul{
+    display: flex;
+    justify-content: flex-start;
+}
+#second nav ul li{
+    list-style: none;
+}
+#second nav ul li a{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+    left: 73vw;
+    bottom: 11vh;
+    font-size: large;
+}
+.btn1{
+    position: relative;
+    left: 82vw;
+    bottom: 16vh;
+    padding: 1vw;
+    border-radius: 2vw;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+.btn2{
+    position: relative;
+    left: 82vw;
+    bottom: 16.25vh;
+    padding: 1vw;
+    border-radius: 2vw;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+.btn1 :hover{
+    font-weight: bolder;
+    color: white;
+}
+.container{
+    height: 500vh;
+}
+.box1{
+    height: 59vh;
+    width: 50vw;
+    background-color: blue;
+    display: inline-block;
+}
+.box1 h2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    top: 15vh;
+}
+.box1 p{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    top: 30vh;
+}
+footer{
+    background-color: red;
+    height:90.5vh
+}

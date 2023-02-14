@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">Hello I am a Containnier</div>
+</body>
+<script>
+// This function will visible your greet in your set time, text in paranthesis link with take care you can also enter something alse in this.
+    function greet(text) {
+        console.log("Hello Good Morning "+ " "+text);
+    }
+    setTimeout(greet,8000,"Take care");
+
+// By writing this synatx it will gives you a unique id by which you can clear time out
+    function greet() {
+        console.log("Hello everyone, Good Morning! ");
+    }
+    timeout = setTimeout(greet, 8000);
+    console.log(timeout);
+
+// Clear time out: By Clear time out your text will not appaer in your set time.
+    function greet() {
+        console.log("Hello everyone, Good Morning! ");
+    }
+    timeout = setTimeout(greet, 8000);
+    console.log(timeout);
+    clearTimeout(timeout);
+    
+// Set interval: By this you run your greet in loop in your specific set time.
+    function greet() {
+        console.log("Hi, How are you?, Good Morning! ");
+    }
+    setInterval(greet, 1000); 
+
+// Set interval id: It will gives you a unque ID:
+    function greet() {
+        console.log("Hi, How are you?, Good Morning! ")
+    }
+    intervalId = setInterval(greet,1000);
+
+// clear interrval:
+    function greet() {
+        console.log("Hello Good Morning!!");
+    }
+    intervalId = setInterval(greet, 1000);
+    clearInterval(intervalId);
+
+
+</script>
+</html>

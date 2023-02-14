@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow_Function</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Arrow Functions:</h1>
+        <span>This is all about  Arrows Funstion</span>
+    </div>
+</body>
+<script>
+    function greet(params) {
+        console.log("Good Morning!");
+    }
+    greet();
+ 
+// Arrow functions: (We can do same work with shortcup using arrow)(It is a shortcup of making function)
+    let greets = ()=>{
+        console.log("Good Morning! ")
+    } 
+    greets();
+
+
+    setTimeout(() =>{
+        console.log("We are in set timeout")
+    }, 8000)
+
+// Returning sum:
+    let sum = (a,b)=>{
+       return a+b;
+    } ;
+
+
+    let obj1={
+        greetings: "Good morning",
+        names: ["Java" , "Html" , "Css", "JS"],
+        speak(){
+            this.names.forEach((languages)=>{
+                console.log(this.greetings+ "languages are " + " " + languages);
+                // Arrow ki waja se andr wala this obj m jay gaa or greeting ko dhoonde ga
+        });
+    }
+}
+obj1.speak();
+</script>
+</html>

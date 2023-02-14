@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+<body>
+   <div id ="main" class="container">
+    <ul id = nav>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact us</li>
+        <li>Services</li>
+        <li>More about us</li>
+    </ul>
+   </div>
+   <div class="container">
+    Another container
+   </div>
+</body>
+<script>
+// manipulating id main:
+    let main  = document.getElementById("main");
+    console.log(main);
+
+// Manipulating id nav in ul:
+    let nav = document.getElementById("nav");
+    console.log(nav);
+
+// get elements by class:
+    let containers = document.getElementsByClassName("container");
+    console.log(containers);
+
+// Selectors:
+    let sel = document.querySelector("#nav>li");
+    console.log("selectors returns",sel) 
+
+// All query Selectors: 
+    let sele = document.querySelectorAll("#nav>li");
+    console.log("Selectors returns",sele)
+
+</script>
+</html>

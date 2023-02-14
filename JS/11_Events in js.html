@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <style>
+        .btn{
+            padding: 15px;
+            border-radius: 34px;
+            color: white;
+            background-color: black;
+            display: flex;
+            cursor: pointer;
+        }
+        .btn:hover{
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <div class="container"><h1>Its All about JS Events and Listening Events:</h1>
+    <p>Event is a signl that kuch hua h jese subscribe p click krdiya or clicking buttons</p>
+    <h2>Browser Events:</h2>
+    <ul>
+        <li>Click</li>
+        <li>Contextmenu</li>
+        <li>mouse over/Mouse out</li>
+        <li>mouse down/mouse up</li>
+        <li>mousemove</li>
+        <li>submit</li>
+        <li>focus</li>
+        <li>DOM Content loading</li>
+        <li>Transitioned</li>
+    </ul>
+    </div>
+    <hr>
+    <hr>
+    <hr>
+    <div class="container">
+        <h1>This is my heading</h1>
+        <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ab doloremque aliquam? Vitae suscipit animi a, dolores in, reprehenderit quidem explicabo nemo ipsa id sit. Et voluptatem optio laboriosam aperiam. Deserunt perferendis voluptatibus laudantium facere ea maiores! Velit architecto, neque illum ut nihil nesciunt ducimus pariatur quasi dolorem vel, quos error, temporibus commodi eius obcaecati consequatur! Iste quia similique ad pariatur cum commodi placeat consectetur libero ipsa officiis? Quae nemo illo vel minima maiores voluptatibus amet praesentium alias sunt neque! Facilis, est pariatur nam cum, possimus facere aliquid nostrum delectus consectetur nemo nisi deserunt minima nihil asperiores sapiente ut? Error iste architecto odit voluptatem, omnis nostrum natus repellendus blanditiis suscipit cum quidem dolores quam numquam eum cupiditate. Officiis aspernatur, quo nihil, consequuntur laborum vel, aut distinctio tempore sapiente harum blanditiis quibusdam vero quam. Reiciendis quia sit minus, possimus, autem assumenda aspernatur corporis dolorem ipsum, amet rerum saepe dolore nemo ratione! Eos, voluptatum! Dolorem provident corporis nostrum, quod obcaecati quo quas optio minus numquam dignissimos ex libero perspiciatis facere cumque. Accusamus perspiciatis, fugit animi eos explicabo ut ipsa blanditiis deserunt consequuntur voluptatibus error nemo dolore nisi suscipit, deleniti corrupti quae ratione consequatur commodi vero dolor rerum. Cum doloremque amet dolore voluptatibus!</p>
+    </div>
+    <button class="btn" onclick="togglehide()">Show/hide</button>
+</body>
+<script>
+    let btn = document.getElementsByClassName("btn");
+    para.addEventListener("mouseover", function run(){
+        alert("Mouse inside the para")
+    });
+    para.addEventListener("mouseout",function run(){
+        alert("Mouse outside the para")
+    })
+
+    function togglehide() {
+    //Commenting part agr na b likho to frq ni pre ga: 
+        // let btn = document.getElementsByClassName("btn");
+        // let para = document.getElementById("para");
+        if(para.style.display!="none"){
+            para.style.display="none";
+        }
+        else{
+            para.style.display="block";
+        }
+    }
+</script>
+</html>
