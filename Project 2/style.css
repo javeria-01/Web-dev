@@ -2,11 +2,14 @@
     margin: 0;
     padding: 0;
 }
+                                              /*Header starts here  */
 header{
-    height: 15vh;
-    background-color: brown;
+    height: 13vh;
+    background-color: rgb(222, 231, 235);
     position: sticky;
+    z-index: 1;
     top: 0vh;
+    border: 0.5px solid black;
 }
 #logo img{
     position: relative;
@@ -68,6 +71,7 @@ li  :hover{
     color: black;
     text-decoration: none;
     list-style: none;
+    cursor: pointer;
 }
 .btn2{
     position: relative;
@@ -79,33 +83,182 @@ li  :hover{
     color: white;
     text-decoration: none;
     list-style: none;
+    cursor: pointer;
 }
 .btn1 :hover{
     font-weight: bolder;
     color: white;
 }
+                                               /* Main Container starts here */
 .container{
-    height: 500vh;
+    display: flex;
+    height: 59vh;
+    background-color: yellow;
 }
+                                                /*Container 1 Box 1 starts here  */
 .box1{
     height: 59vh;
     width: 50vw;
-    background-color: blue;
+    background-color:rgb(200, 231, 243);
     display: inline-block;
+    bottom: 20vh;
 }
-.box1 h2{
+.content h2{
+    text-align: center;
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    top: 15vh;
+    top: 20vh;
+    
 }
-.box1 p{
+.content p{
+    text-align: center;
+    position: relative;
+    top: 20vh;
+    font-size: 130%
+}
+.content #btn{
+    background-color: rgb(200, 231, 243);
+    position: relative;
+    top: 25vh;
+    left: 21vw;
+    padding: 2vh;
+    border-radius: 5vh;
+    border: 2px solid black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.content #btn:hover{
+    background-color: rgb(196, 193, 193);
+}
+                                               /*Container 1 Box 2 strts here  */
+.box2{
+    display: inline-block;
+    background-color: aqua;
+    height: 59vh;
+    width: 49vw;
+}
+.container .box2 img{
+    width: 47%;
+    background-position: center;
+    position: relative;
+    top: 0vh;
+    left: 15vw;
+}
+                                               /* Conteiner strts here */
+.container2{
     display: flex;
-    justify-content: center;
-    align-content: center;
+    height: 80vh;
+    background-color: rgb(122, 122, 18);
+}
+                                               /* Container 2 Box 1 Strts*/
+.container2 .box1{
+    background-color: rgb(197, 107, 107);
+    display: inline-block;
+    background-color: rgb(54, 110, 110);
+    height: 80vh;
+    width: 50vw;
+    }
+.box1 img{
+    width: 51.3%;
+    background-position: center;
+    position: relative;
+    top: 0vh;
+    left: 15vw;
+    }
+                                               /* Conteiner 2 box 2 strts */
+.container2 .box2{
+    height: 80vh;
+    width: 49vw;
+    background-color:rgb(59, 136, 167);
+    display: inline-block;
+    bottom: 20vh;
+}
+.container2 .box2 h2{
+    text-align: center;
+    position: relative;
+    top: 25vh;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.container2 .box2 p{
+    text-align: center;
+    position: relative;
+    top: 27vh;
+    font-size: x-large;
+
+}
+.container2 .box2 #btn{
+    background-color: rgb(200, 231, 243);
+    position: relative;
     top: 30vh;
+    left: 21vw;
+    padding: 2vh;
+    border-radius: 5vh;
+    border: 2px solid black;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 100%;
 }
+.container2 .box2 #btn:hover{
+    background-color: rgb(196, 193, 193);
+}
+.container3{
+    background-color: black;
+    display: flex;
+}                                                /* Container 3 Box 1 strts here */
+.container3 .box1{
+    height: 80vh;
+    width: 49vw;
+    background-color:rgb(4, 60, 82);
+    display: inline-block;
+    bottom: 20vh;
+}
+.container3 .box1 h2{
+    text-align: center;
+    position: relative;
+    top: 25vh;
+    font-weight: bolder;
+    font-size: 300%;
+}
+.container3 .box1 p{
+    text-align: center;
+    position: relative;
+    top: 27vh;
+    font-size: 180%;
+
+}
+.container3 .box1 #btn{
+    background-color: rgb(200, 231, 243);
+    position: relative;
+    top: 30vh;
+    left: 21vw;
+    padding: 2vh;
+    border-radius: 5vh;
+    border: 2px solid black;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 100%;
+}
+.container3 .box1 #btn:hover{
+    background-color: rgb(196, 193, 193);
+}
+                                                /* Container 3 box 2 strts here */
+.container3 .box2{
+    background-color: rgb(255, 84, 84);
+    display: inline-block;
+    background-color: rgb(93, 97, 97);
+    height: 80vh;
+    width: 50vw;
+    }
+.container3 .box2 img{
+    width: 77%;
+    background-position: center;
+    position: relative;
+    top: 0vh;
+    right: 0vw;
+    left: 6vw;
+    }
+
+                                                /* Footer strts here */
 footer{
     background-color: red;
     height:90.5vh
