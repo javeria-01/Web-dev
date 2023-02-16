@@ -43,7 +43,7 @@ li  :hover{
     width: 2vw;
     position: relative;
     left: 70vw;
-    bottom: 7vh;
+    bottom: 8.25vh;
 }
 #second nav ul{
     display: flex;
@@ -58,13 +58,13 @@ li  :hover{
     list-style: none;
     position: relative;
     left: 73vw;
-    bottom: 11vh;
+    bottom: 13vh;
     font-size: large;
 }
 .btn1{
     position: relative;
     left: 82vw;
-    bottom: 16vh;
+    bottom: 19vh;
     padding: 1vw;
     border-radius: 2vw;
     background-color: white;
@@ -76,7 +76,7 @@ li  :hover{
 .btn2{
     position: relative;
     left: 82vw;
-    bottom: 16.25vh;
+    bottom: 19vh;
     padding: 1vw;
     border-radius: 2vw;
     background-color: black;
@@ -87,7 +87,8 @@ li  :hover{
 }
 .btn1 :hover{
     font-weight: bolder;
-    color: white;
+    color: rgb(170, 163, 163);
+    
 }
                                                /* Main Container starts here */
 .container{
@@ -106,19 +107,19 @@ li  :hover{
 .content h2{
     text-align: center;
     position: relative;
-    top: 20vh;
+    top: 15vh;
     
 }
 .content p{
     text-align: center;
     position: relative;
-    top: 20vh;
+    top: 15vh;
     font-size: 130%
 }
 .content #btn{
     background-color: rgb(200, 231, 243);
     position: relative;
-    top: 25vh;
+    top: 18vh;
     left: 21vw;
     padding: 2vh;
     border-radius: 5vh;
@@ -132,33 +133,33 @@ li  :hover{
                                                /*Container 1 Box 2 strts here  */
 .box2{
     display: inline-block;
-    background-color: aqua;
+    background-color: rgb(3, 49, 3);
     height: 59vh;
     width: 49vw;
 }
 .container .box2 img{
-    width: 47%;
+    width: 90.90%;
     background-position: center;
     position: relative;
     top: 0vh;
-    left: 15vw;
+    left: 2.50vw;
 }
                                                /* Conteiner strts here */
 .container2{
     display: flex;
     height: 80vh;
-    background-color: rgb(122, 122, 18);
+    background-color:yellow;
 }
                                                /* Container 2 Box 1 Strts*/
 .container2 .box1{
-    background-color: rgb(197, 107, 107);
+    background-color:rgb(180, 173, 173);
     display: inline-block;
-    background-color: rgb(54, 110, 110);
+    /* background-color: rgb(54, 110, 110); */
     height: 80vh;
     width: 50vw;
     }
 .box1 img{
-    width: 51.3%;
+    width: 46.90%;
     background-position: center;
     position: relative;
     top: 0vh;
@@ -202,13 +203,13 @@ li  :hover{
     background-color: rgb(196, 193, 193);
 }
 .container3{
-    background-color: black;
+    background-color: yellow;
     display: flex;
 }                                                /* Container 3 Box 1 strts here */
 .container3 .box1{
     height: 80vh;
     width: 49vw;
-    background-color:rgb(4, 60, 82);
+    background-color:rgb(96, 194, 236);
     display: inline-block;
     bottom: 20vh;
 }
@@ -250,16 +251,331 @@ li  :hover{
     width: 50vw;
     }
 .container3 .box2 img{
-    width: 77%;
+    width: 70.50%;
     background-position: center;
     position: relative;
     top: 0vh;
     right: 0vw;
-    left: 6vw;
+    left: 8vw;
     }
-
-                                                /* Footer strts here */
-footer{
-    background-color: red;
-    height:90.5vh
+                                                /* Container 4 strts here */
+.container4{
+    display: flex;
+    height: 80vh;
+    background-color:yellow;
 }
+                                                /* Container 2 Box 1 Strts*/
+.container4 .box1{
+    background-color: rgb(107, 73, 73);
+    display: inline-block;
+    height: 80vh;
+    width: 50vw;
+}
+.container4 .box1 img{
+    width: 100%;
+    background-position: center;
+    position: relative;
+    top: 12vh;
+    left: 0vw;
+}                                                                                                                                                                /* Conteiner 2 box 2 strts */
+.container4 .box2{
+    height: 80vh;
+    width: 49vw;
+    background-color:rgb(89, 102, 107);
+    display: inline-block;
+    bottom: 20vh;
+}
+.container4 .box2 h2{
+    text-align: center;
+    position: relative;
+    top: 25vh;
+    font-weight: bolder;
+    font-size: 300%;
+}
+.container4 .box2 p{
+    text-align: center;
+    position: relative;
+    top: 27vh;
+    font-size: 180%;                                                
+}
+.container4 .box2 #btn{
+    background-color: rgb(200, 231, 243);
+    position: relative;
+    top: 30vh;
+    left: 21vw;
+    padding: 2vh;
+    border-radius: 5vh;
+    border: 2px solid black;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 100%;
+}
+.container4 .box2 #btn:hover{
+    background-color: rgb(196, 193, 193);
+}    
+                                                /* Container 5 */
+.container5{
+    background-color: yellow;
+    width: 100vw;
+    height: 25vh;
+} 
+.container5 .box1{
+    background-color:  rgb(222, 231, 235);
+    width: 100vw;
+    height: 25vh;
+}    
+.container5 .box1 h1{
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+}                                      
+.container5 .box1 p{
+    text-align: center;
+    justify-content: center;
+    font-size: x-large;
+}
+                                                /* Container 6 */
+.container6{
+    height: 28vh;
+    width: 100vw;
+    background-color: yellow;
+}    
+.container6 .box1{
+    height: 28vh;
+    width: 100vw;
+    background-color: white;
+}     
+.container .box1 h{
+    text-align: center;
+    justify-content: center;
+
+}                       
+.container6 .box1 p{
+    text-align: center;
+    justify-content: center;
+}
+                                              /* Container 7 strts */
+.container7{
+    background-color: yellow;
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+}
+                                               /* Container 7 box 1 */
+.container7 .box1{
+    background-color: white;
+    height: 70vh;
+    width: 20vw;
+    display: inline-block;
+}
+.container7 .box1 h3{
+    display: flex;
+    font-size: x-large;
+    justify-content: center;
+    text-align: center;
+}
+.container7 .box1 ul li{
+    list-style: none;
+}   
+.container7 .box1 ul li a{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    font-size: larger;
+    text-align: center;
+    justify-content: center;
+}
+.container7 .box1  li:hover{
+    font-weight: bolder;
+    color: black;
+   
+}
+                                            /* Conatiner 7 box 2 */
+.container7 .box2{
+    background-color:white;
+    height: 70vh;
+    width: 20vw;
+    display: inline-block;
+}
+.container7 .box2 h3{
+    display: flex;
+    font-size: x-large;
+    justify-content: center;
+    text-align: center;
+}
+.container7 .box2 ul li{
+    list-style: none;
+}   
+.container7 .box2 ul li a{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    font-size: larger;
+    text-align: center;
+    justify-content: center;
+}
+.container7 .box2  li:hover{
+    font-weight: bolder;
+    color: black;
+}                                              /* Container 7 box 3 */
+.container7 .box3{
+    background-color:white;
+    height: 70vh;
+    width: 20vw;
+    display: inline-block;
+}
+.container7 .box3 h3{
+    display: flex;
+    font-size: x-large;
+    justify-content: center;
+    text-align: center;
+}
+.container7 .box3 ul li{
+    list-style: none;
+}   
+.container7 .box3 ul li a{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    font-size: larger;
+    text-align: center;
+    justify-content: center;
+}
+.container7 .box3  li:hover{
+    font-weight: bolder;
+    color: black;
+}  
+                                              /* Container 7 box 4 */
+.container7 .box4{
+    background-color: white;
+    height: 70vh;
+    width: 20vw;
+    display: inline-block;
+}
+.container7 .box4 h3{
+    display: flex;
+    font-size: x-large;
+    justify-content: center;
+    text-align: center;
+}
+.container7 .box4 ul li{
+    list-style: none;
+}   
+.container7 .box4 ul li a{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    font-size: larger;
+    text-align: center;
+    justify-content: center;
+}
+.container7 .box4  li:hover{
+    font-weight: bolder;
+    color: black;
+}  
+                                               /* Container 7 box 5 */
+.container7 .box5{
+    background-color: white;
+    height: 70vh;
+    width: 20vw;
+    display: inline-block;
+}
+.container7 .box5 h3{
+    display: flex;
+    font-size: x-large;
+    justify-content: center;
+    text-align: center;
+}
+.container7 .box5 ul li{
+    list-style: none;
+}   
+.container7 .box5 ul li a{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    font-size: larger;
+    text-align: center;
+    justify-content: center;
+}
+.container7 .box5  li:hover{
+    font-weight: bolder;
+    color: black;
+}  
+.container8{
+    background-color: yellow;
+    height: 6vh;
+    display: flex;
+}
+.container8 .box1{
+    height: 6vh;
+    background-color: white;
+    width: 100vw;
+}
+.container8 .box1 .imgfb{
+    width: 8%;
+    display: inline-block;
+    position: relative;
+    right: 14vw;
+}
+.container8 .box1 .imginsta{
+    width: 4%;
+    display: inline-block;
+    position: relative;
+    right: 17vw;
+}
+.container8 .box1 .imgutube{
+    width: 6%;
+    display: inline-block;
+    position: relative;
+    right: 17vw;
+}
+.container8 .box1 .imgtwt{
+    width: 5%;
+    display: inline-block;
+    position: relative;
+    right: 17vw;
+} 
+.container9{
+    background-color: yellow;
+    height: 15vh;
+    width: 100vw;
+}
+.container9 .box1{
+    background-color: white;
+    height: 50.5px;
+    width: 100vw;
+}
+.container9 .box1 ul{
+    display: flex;
+    justify-content: flex-start;
+}
+.container9 .box1 ul li{
+    list-style: none;
+}
+.container9 .box1 ul li a{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+    left: 0vw;
+    bottom: -3vh;
+    padding: 2.5vw;
+    
+}
+.container9 .box2{
+    height: 48.5px;
+    width: 100vw;
+    padding: 2vh;
+    background-color: black;
+}
+.container9 .box2 span{
+    position: relative;
+    left: 2.50vh;
+    color:white;
+    font-weight: bold;
+}                                          
