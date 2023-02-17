@@ -3,6 +3,22 @@
     padding: 0;
 }
                                               /*Header starts here  */
+header .progressbar{
+    background-color: red;
+    height: 0.19vh;
+    width: 0.25vw;
+    animation: progress 0.5s ease-out 1s 1 normal;
+}
+@keyframes progress {
+    from{
+        width: 0.25vw;
+        height: 0.19vh;
+  }
+    to{
+        width: 100vw;
+        height: 0.25vh;
+  }
+}    
 header{
     height: 13vh;
     background-color: rgb(222, 231, 235);
@@ -64,7 +80,7 @@ li  :hover{
 .btn1{
     position: relative;
     left: 82vw;
-    bottom: 19vh;
+    bottom: 18vh;
     padding: 1vw;
     border-radius: 2vw;
     background-color: white;
@@ -76,7 +92,7 @@ li  :hover{
 .btn2{
     position: relative;
     left: 82vw;
-    bottom: 19vh;
+    bottom: 18vh;
     padding: 1vw;
     border-radius: 2vw;
     background-color: black;
@@ -91,12 +107,30 @@ li  :hover{
     
 }
                                                /* Main Container starts here */
+
+.time{
+    height: 4vh;
+    width: 94.5vw;
+    background-color: black;
+    color: white;
+    padding: 4vh;
+    border-radius: 50vw;
+}                                              .time span{
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    left: 29vw;
+    
+} 
 .container{
     display: flex;
     height: 59vh;
     background-color: yellow;
 }
                                                 /*Container 1 Box 1 starts here  */
+                                                
 .box1{
     height: 59vh;
     width: 50vw;
@@ -138,11 +172,11 @@ li  :hover{
     width: 49vw;
 }
 .container .box2 img{
-    width: 90.90%;
+    width: 99.50%;
     background-position: center;
     position: relative;
     top: 0vh;
-    left: 2.50vw;
+    left: 0vw;
 }
                                                /* Conteiner strts here */
 .container2{
@@ -159,11 +193,11 @@ li  :hover{
     width: 50vw;
     }
 .box1 img{
-    width: 46.90%;
+    width: 51.40%;
     background-position: center;
     position: relative;
     top: 0vh;
-    left: 15vw;
+    left: 12vw;
     }
                                                /* Conteiner 2 box 2 strts */
 .container2 .box2{
@@ -251,12 +285,12 @@ li  :hover{
     width: 50vw;
     }
 .container3 .box2 img{
-    width: 70.50%;
+    width: 77%;
     background-position: center;
     position: relative;
     top: 0vh;
     right: 0vw;
-    left: 8vw;
+    left: 6vw;
     }
                                                 /* Container 4 strts here */
 .container4{
@@ -520,13 +554,13 @@ li  :hover{
     width: 8%;
     display: inline-block;
     position: relative;
-    right: 14vw;
+    right: 12vw;
 }
 .container8 .box1 .imginsta{
     width: 4%;
     display: inline-block;
     position: relative;
-    right: 17vw;
+    right: 15vw;
 }
 .container8 .box1 .imgutube{
     width: 6%;
@@ -538,11 +572,11 @@ li  :hover{
     width: 5%;
     display: inline-block;
     position: relative;
-    right: 17vw;
+    right: 19vw;
 } 
 .container9{
     background-color: yellow;
-    height: 15vh;
+    height: 16.50vh;
     width: 100vw;
 }
 .container9 .box1{
