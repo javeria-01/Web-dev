@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header .progressbar{
+    background-color: red;
+    height: 0.19vh;
+    width: 0.25vw;
+    animation: progress 0.5s ease-out 1s 1 normal;
+}
+@keyframes progress {
+    from{
+        width: 0.25vw;
+        height: 0.19vh;
+  }
+    to{
+        width: 100vw;
+        height: 0.25vh;
+  }
+} 
+header nav .container1{
+    height: 13vh;
+    width: 100vw;
+    /* background-color: purple; */
+    color: white;
+    display: flex;
+}
+header nav .container1 img{
+    width: 3%;
+    position: relative;
+    top: 2.30vh;
+    left: 3vw;
+}
+header nav .container1 .heading h1{
+    color: black;
+    position: relative;
+    top: 2.50vh;
+    right: 42vw;
+    font-weight:bolder;
+    font-family:system-ui;
+}
+header nav .container1 .heading h1:hover{
+    cursor: pointer;
+    color: rgb(145, 92, 92);
+}
+header nav .container1 ul{
+    display: flex;
+    justify-content: flex-end;
+}
+header nav .container1 ul li{
+    list-style: none;
+}
+header nav .container1 ul li a{ 
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+    padding: 2.5vw;
+    /* font-size: larger; */
+    right: 16vw;
+    top: 4vh;
+    font-family:system-ui;
+}
+header nav .container1 ul li a:hover{
+    font-weight: bolder;
+    color: rgb(145, 92, 92);
+}
+header nav .container1 button{
+    padding: 2vh;
+    height: 8vh;
+    width: 10vw;
+    position: relative;
+    left: -8vw;
+    top: 2vh;
+    border-radius: 5vh;
+    font-weight: bold;
+    font-family:system-ui;
+}
+header nav .container1 button:hover{
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.container2{
+    height: 70vh;
+    width: 95vw;
+    background-color: rgb(233, 227, 227);
+    position: relative;
+    left: 2.5vw;
+    border-radius: 2vw;
+}
+.container2 .homeimage img{
+    /* width: 47.5%; */
+    height: 70vh;
+    width: 60vw;
+    border-radius: 2vw;
+    position: relative;
+    left: 35vw;
+}
+.container2 .heading h1{
+    font-size: 338%;
+    font-weight: bolder;
+    position: relative;
+    bottom: 65vh;
+    left: 4vw;
+    font-family: system-ui;
+}
+.container2 .buttons #first{
+    background-color:black ;
+    color: white;
+    padding: 1vw;
+    position: relative;
+    bottom: 62vh;
+    border-radius: 6vw;
+    left: 5vw;
+    width: 12vw;
+    height: 9vh
+}
+.container2 .buttons #first:hover{
+    color: rgb(196, 187, 187);
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: large;
+}
+.container2 .buttons #second{
+    background-color: white;
+    color: black;
+    padding: 1vw;
+    bottom: 62vh;
+    border-radius: 6vw;
+    position: relative;
+    left: 5vw;
+    width: 12vw;
+    height: 9vh
+}
+.container2 .buttons #second:hover{
+    color:rgb(31, 30, 30);
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: large;
+}
+.container3{
+    height: 20vh;
+    width: 80vw;
+    background-color: white;
+    border-radius: 2vw;
+    position: relative;
+    bottom: 25vw;
+    left: 10vw;
+    top: -8vh;
+}
+
+.container3 button{
+    background-color: black;
+    color: white;
+    height: 20vh;
+    border-radius: 2vw;
+    width: 15vw;
+    position: relative;
+    left: 65vw;
+   font-size: larger;
+   bottom: 9.50vh;
+}
+.container3 button:hover{
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: x-large;
+}
+.container3 .location #location{
+    display: flex;
+    background-color: white;
+    color: black;
+    font-weight:900;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    left: 4vw;
+    top: 7vh;
+    border: none;
+    cursor: pointer;
+}
+.container3 .category #category{
+    display: flex;
+    background-color: white;
+    color: black;
+    font-weight:900;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    left: 22vw;
+    top: 4vh;
+    border: none;
+    cursor: pointer;
+}
+.container3 .person #person{
+    display: flex;
+    background-color: white;
+    color: black;
+    font-weight:900;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    left: 43vw;
+    top: 1.50vh;
+    border: none;
+    cursor: pointer;
+}
+.container4{
+    height: 2vh;
+    width: 79vw;
+    background-color: rgb(233, 227, 227);
+    position: relative;
+    bottom: 25.50vw;
+    left: 10.5vw;
+    border-radius: 2vw;
+    top: -9vh;
+}
+.container5{
+    height: 2vh;
+    width: 79vw;
+    background-color: rgb(248, 247, 247);
+    position: relative;
+    bottom: 25.5vw;
+    left: 10.5vw;
+    border-radius: 2vw;
+    top: -9vh;
+}
+.container6{
+    background-color:white;
+    color: black;
+    height: 20vh;
+    width: 180vh;
+    position: relative;
+    bottom: 56vh;
+    left: 7vw;
+    display: flex;
+    top: -12vh;
+}
+.container6 h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.box1{
+    background-color: rgb(233, 227, 227);
+    width: 36vh;
+    height: 12vh;
+    display: inline-block;
+    position: relative;
+    top: 6vh;
+    right: 13vw;
+}
+.box1 h3{
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   position: relative;
+   left: 1vw;
+   top: 1vh;
+}
+.box1 h5{
+    color: rgb(100, 94, 94);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+   left: 1vw;
+}
+.box1 button{
+    padding: 0.50vw;
+    border-radius: 1vw;
+    background-color: black;
+    color: white;
+    position: relative;
+    left: 13vw;
+    bottom: 5.5vh;
+    
+}
+.box1 button:hover{
+    font-weight: bolder;
+    color: rgb(202, 193, 193);
+    cursor: pointer;
+    border: 3px solid black;
+}
+.box2{
+    background-color: rgb(233, 227, 227);
+    width: 36vh;
+    height: 12vh;
+    display: inline-block;
+    position: relative;
+    top: 6vh;
+    right: 8vw;
+}
+.box2 h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    left: 1vw;
+    top: 1vh;
+ }
+ .box2 h5{
+     color: rgb(100, 94, 94);
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     position: relative;
+    left: 1vw;
+ }
+ .box2 button{
+    padding: 0.50vw;
+    border-radius: 1vw;
+    background-color: black;
+    color: white;
+    position: relative;
+    left: 13vw;
+    bottom: 5.5vh;
+    
+}
+.box2 button:hover{
+    font-weight: bolder;
+    color: rgb(202, 193, 193);
+    cursor: pointer;
+    border: 3px solid black;
+}
+.box3{
+    background-color: rgb(233, 227, 227);
+    width: 36vh;
+    height: 12vh;
+    display: inline-block;
+    position: relative;
+    top: 6vh;
+    right: 3vw;
+} 
+.box3 h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    left: 1vw;
+    top: 1vh;
+ }
+ .box3 h5{
+     color: rgb(100, 94, 94);
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     position: relative;
+    left: 1vw;
+ }
+ .box3 button{
+    padding: 0.50vw;
+    border-radius: 1vw;
+    background-color: black;
+    color: white;
+    position: relative;
+    left: 13vw;
+    bottom: 5.5vh;
+    
+}
+.box3 button:hover{
+    font-weight: bolder;
+    color: rgb(202, 193, 193);
+    cursor: pointer;
+    border: 3px solid black;
+}
+.box4{
+    background-color: rgb(233, 227, 227);
+    width: 36vh;
+    height: 12vh;
+    display: inline-block;
+    position: relative;
+    top: 6vh;
+    right: -3vw;
+}
+.box4 h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    left: 1vw;
+    top: 1vh;
+ }
+ .box4 h5{
+     color: rgb(100, 94, 94);
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     position: relative;
+    left: 1vw;
+ }
+ .box4 button{
+    padding: 0.50vw;
+    border-radius: 1vw;
+    background-color: black;
+    color: white;
+    position: relative;
+    left: 13vw;
+    bottom: 5.5vh;
+    
+}
+.box4 button:hover{
+    font-weight: bolder;
+    color: rgb(202, 193, 193);
+    cursor: pointer;
+    border: 3px solid black;
+}
+span{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    bottom: 3vh;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(97, 89, 89);
+}
+   
